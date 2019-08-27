@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20bf90c8-022a-43de-bb0f-e848926c6798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day_2/abc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day_3/HelloWord.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="20bf90c8-022a-43de-bb0f-e848926c6798" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566887931557</updated>
       <workItem from="1566887932833" duration="436000" />
+      <workItem from="1566889290269" duration="512000" />
     </task>
     <servers />
   </component>
@@ -71,7 +67,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
