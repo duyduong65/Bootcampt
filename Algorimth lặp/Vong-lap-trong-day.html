@@ -6,26 +6,23 @@
 </head>
 <body>
     <script>
-        function avarage() {
-            let a;
-            let b;
-            let c;
-            let trungbinh;
-            a = document.getElementById("a").value;
-            b = document.getElementById("b").value;
-            c = document.getElementById("c").value;
+        function VongLap() {
+            let ShowNumbers = document.getElementById('ShowNumbers').value;
+            let array = ShowNumbers.split(',');
 
-            a = Number(a);
-            b = Number(b);
-            c = Number(c);
-            trungbinh = (a + b + c) / 3;
-            alert(trungbinh);
-        }
+           let max = Number(array[0]);
+            for (i=0;i<=array.length;i++){
+                if(max<=Number(array[i]))
+                {
+                    max=(array[i])
+                }
+            }
+    alert(max)
+         }
+
     </script>
-<input id="a"type="text">
-<input id="b"type="text">
-<input id="c"type="text">
-<button type="button" onclick="avarage();">click</button>
+    <input id="ShowNumbers">
+    <button type="button" onclick="VongLap()">click_finMaxNumbers</button>
 
 </body>
 </html>
