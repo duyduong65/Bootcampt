@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+
+<button type="button" onclick="TimBoi()">Click</button>
+    <script>
+        function TimBoi() {
+            let a= prompt("nhập vào số a: ")
+            let b=prompt("nhập vào số b: ")
+            let n = a %= b;
+            if (n == 0){
+                alert("a chia hết cho b")
+            }else {
+                alert("a không chia hết cho b")
+            }
+
+        }
+    </script>
+
+</body>
+</html>

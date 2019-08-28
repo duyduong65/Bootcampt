@@ -22,7 +22,10 @@
         else if (max < c) {
             max = c;
         }
-        alert(max);
+       // console.log(max)
+       // document.write(max)
+        document.getElementById('result').innerHTML=max;
+   //     alert(max);
     }
 
 </script>
@@ -30,5 +33,6 @@
 <input id="b" type="text">
 <input id="c" type="text">
 <button type="button" onclick="findMaxNumbers()">Click</button>
+<p id="result"></p>
 </body>
 </html>
