@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_3_4</title>
+</head>
+
+<body>
+nhập vào bán kính: <input id="radius"><br>
+
+
+<button type="button" onclick="SCircle()">Click Me Please!</button>
+
+<script>
+    function SCircle() {
+        let radius = document.getElementById('radius').value;
+        let S = Math.PI * radius * radius;
+        let C = Math.PI *2*radius;
+        document.write("diện tích hình tròn là: "+ S);
+        document.write("    Chu vi hình tròn là: "+ C);
+
+    }
+</script>
+</body>
+</html>

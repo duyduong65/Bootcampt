@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_2</title>
+</head>
+
+<body>
+nhập vào nhiệt độ: <input id="temp"><br>
+
+<button type="button" onclick="convertTemp()">Click Me Please!</button>
+
+    <script>
+        function convertTemp() {
+    let celsius = document.getElementById('temp').value
+            let Fahrenheit = (9*celsius)/5+32;
+    document.write("giá trị độ F là: "+ Fahrenheit)
+        }
+    </script>
+</body>
+</html>
