@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Max Numbers</title>
+</head>
+<body>
+<script>
+    function VongLap() {
+        let ShowNumbers = document.getElementById('ShowNumbers').value;
+        let array = ShowNumbers.split(',');
+
+        let max = Number(array[0]);
+        for (i=0;i<=array.length;i++){
+            if(max<=Number(array[i]))
+            {
+                max=(array[i])
+            }
+        }
+        alert(max)
+    }
+
+</script>
+<input id="ShowNumbers">
+<button type="button" onclick="VongLap()">click_finMaxNumbers</button>
+
+</body>
+</html>
